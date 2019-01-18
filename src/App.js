@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './mountainjslogo.png';
 import './App.css';
 
 class App extends Component {
@@ -7,18 +7,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+          <img src={logo}  alt="logo" />
+          
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.meetup.com/mountainjs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Mountain.js
           </a>
+          <p>JavaScript Study Retreats in the Mountains</p>
         </header>
       </div>
     );
